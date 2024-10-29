@@ -49,7 +49,7 @@ struct ContentView: View {
             }
             
             else if outputSelection == "miles"{
-                finalAmount = inputLength * 1093.61
+                finalAmount = inputLength / 1.609
             }
             return finalAmount
         }
@@ -121,8 +121,8 @@ struct ContentView: View {
                             Text($0)
                         }
                     }.pickerStyle(.segmented)
-                    
-                    Text("\(convertedLength)" + " \(outputSelection)")
+                    let roundedValue = round(convertedLength * 100)/100
+                    Text("\(roundedValue)" + " \(outputSelection)")
                 }
             }.navigationTitle("Unit Converter")
         }
