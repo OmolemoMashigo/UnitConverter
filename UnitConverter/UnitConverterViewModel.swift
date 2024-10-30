@@ -29,7 +29,7 @@ class UnitConverterViewModel: ObservableObject{
             }
             
             else if outputSelection == "yards"{
-                finalAmount = inputLength * 3280.84
+                finalAmount = inputLength * 1094
             }
             
             else if outputSelection == "miles"{
