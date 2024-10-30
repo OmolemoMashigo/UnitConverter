@@ -11,6 +11,7 @@
 		AF6362302CD0F9EB003C941E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF63622F2CD0F9EB003C941E /* ContentView.swift */; };
 		AF6362322CD0F9ED003C941E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF6362312CD0F9ED003C941E /* Assets.xcassets */; };
 		AF6362352CD0F9ED003C941E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF6362342CD0F9ED003C941E /* Preview Assets.xcassets */; };
+		AF6362712CD25F8D003C941E /* UnitConverterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6362702CD25F8D003C941E /* UnitConverterViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		AF63622F2CD0F9EB003C941E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AF6362312CD0F9ED003C941E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF6362342CD0F9ED003C941E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AF6362702CD25F8D003C941E /* UnitConverterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitConverterViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				AF63622F2CD0F9EB003C941E /* ContentView.swift */,
 				AF6362312CD0F9ED003C941E /* Assets.xcassets */,
 				AF6362332CD0F9ED003C941E /* Preview Content */,
+				AF6362702CD25F8D003C941E /* UnitConverterViewModel.swift */,
 			);
 			path = UnitConverter;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			files = (
 				AF6362302CD0F9EB003C941E /* ContentView.swift in Sources */,
 				AF63622E2CD0F9EB003C941E /* UnitConverterApp.swift in Sources */,
+				AF6362712CD25F8D003C941E /* UnitConverterViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
